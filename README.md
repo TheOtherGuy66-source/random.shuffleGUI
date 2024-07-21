@@ -1,3 +1,8 @@
+!Image Description https://imgur.com/bHTVppT
+
+
+
+
 # Media Player
 
 This is my custom media player I created just for fun. The auto-play directory is hardcoded due to permission issues when trying to seek any drive on the computer with a folder named "Music." Hardcoding was the easier and simplest way.
