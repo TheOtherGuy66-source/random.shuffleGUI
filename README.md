@@ -1,4 +1,4 @@
-[img]https://i.imgur.com/bHTVppT.png[/img]
+https://i.imgur.com/bHTVppT.png
 
 
 
