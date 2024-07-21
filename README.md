@@ -1,7 +1,5 @@
-https://i.imgur.com/bHTVppT.png
 
-
-
+![Screenshot 2024-07-21 081038](https://github.com/user-attachments/assets/09259a8a-15af-4b0c-a736-445e53919cd2)
 
 # Media Player
 
