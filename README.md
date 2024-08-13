@@ -87,6 +87,51 @@ Verify that Python 3.12.5 was installed successfully:
 python3.12 --version
 ```
 
+## Check Installation Path
+
+Ensure Python 3.12.5 was installed in a directory that’s in your system's PATH. The make altinstall command typically installs Python binaries in /usr/local/bin/. You can verify this by running
+```
+which python3.12
+```
+## If it returns a path like /usr/local/bin/python3.12, then Python is correctly installed.
+
+## Create a Symlink (if needed)
+
+If the Python binary isn't found or is in an unexpected location, you can create a symlink in /usr/bin/
+```
+sudo ln -s /usr/local/bin/python3.12 /usr/bin/python3.12
+```
+## Create a Symlink (if needed)
+
+If the Python binary isn't found or is in an unexpected location, you can create a symlink in /usr/bin/
+```
+sudo nano /usr/share/applications/python3.12.desktop
+```
+
+## Add the Following Content
+```
+[Desktop Entry]
+Name=Python 3.12
+Comment=Run Python 3.12 Scripts
+Exec=/usr/local/bin/python3.12 %f
+Icon=python3
+Terminal=true
+Type=Application
+MimeType=text/x-python;
+Categories=Development;Programming;
+```
+Save and Exit (Ctrl+X, Y, Enter)
+
+```
+sudo update-desktop-database
+```
+
+Right-click on a Python script.
+Select Properties.
+Go to the Open With tab.
+Choose Python 3.12 from the list.
+Click Set as default.
+
 ## Directory Management
 
 ```python
