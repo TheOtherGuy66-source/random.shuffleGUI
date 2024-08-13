@@ -84,5 +84,11 @@ Verify that Python 3.12.5 was installed successfully:
 python3.12 --version
 ```
 
-This will print the installed Python version, confirming that Python 3.12.5 is installed.
+## Directory Management
+
+```python
+async def auto_load_dir():
+    global current_dir, song_files, song_count, skip_count, start_time
+    current_dir = '/mnt/HDD/Music'  # Linux directory adjustment
+    await load_songs_from_directory(current_dir)
 ```
