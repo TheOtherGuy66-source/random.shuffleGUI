@@ -24,6 +24,9 @@ async def auto_load_dir():
     await load_songs_from_directory(current_dir)
 ```
 
+![Image_Linux](https://github.com/user-attachments/assets/268d5313-3264-41e9-bbc1-4ce4189e8b34)
+
+
 ## random.shuffleGUI 1.06.05 BETA_Linux.py
 
 # Installing Python 3.12.5 from Source
