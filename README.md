@@ -101,9 +101,15 @@ If the Python binary isn't found or is in an unexpected location, you can create
 ```
 sudo ln -s /usr/local/bin/python3.12 /usr/bin/python3.12
 ```
-## Create a Symlink (if needed)
+Replace /usr/local/bin/python3.12 with the correct path if it's different.
 
-If the Python binary isn't found or is in an unexpected location, you can create a symlink in /usr/bin/
+## Make Python 3.12.5 Available in "Open With"
+
+To ensure Python 3.12.5 is available in the "Open With" dialog:
+
+    Manual Add to "Open With" Menu: You can manually add Python 3.12.5 to the "Open With" menu by creating a .desktop file.
+
+        Create the .desktop File:
 ```
 sudo nano /usr/share/applications/python3.12.desktop
 ```
