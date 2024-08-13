@@ -22,16 +22,6 @@ async def auto_load_dir():
     global current_dir, song_files, song_count, skip_count, start_time
     current_dir = 'D:\\Music'
     await load_songs_from_directory(current_dir)
-
-
-
-## Directory Management
-
-```python
-async def auto_load_dir():
-    global current_dir, song_files, song_count, skip_count, start_time
-    current_dir = 'D:\\Music'
-    await load_songs_from_directory(current_dir)
 ```
 
 ## random.shuffleGUI 1.06.05 BETA_Linux.py
