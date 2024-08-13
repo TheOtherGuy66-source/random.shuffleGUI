@@ -25,7 +25,6 @@ async def auto_load_dir():
 
 ## random.shuffleGUI 1.06.05 BETA_Linux.py
 
-```markdown
 # Installing Python 3.12.5 from Source
 
 Follow these steps to install Python 3.12.5 from source on a Linux system.
@@ -34,7 +33,7 @@ Follow these steps to install Python 3.12.5 from source on a Linux system.
 
 First, make sure your package list is up to date by running:
 
-```bash
+```
 sudo apt update
 sudo apt upgrade
 ```
@@ -43,7 +42,7 @@ sudo apt upgrade
 
 You'll need some development tools and libraries required for building Python from source:
 
-```bash
+```
 sudo apt install build-essential
 ```
 
@@ -59,7 +58,7 @@ wget https://www.python.org/ftp/python/3.12.5/Python-3.12.5.tgz
 
 Extract the tarball:
 
-```bash
+```
 tar -xf Python-3.12.5.tgz
 ```
 
@@ -67,7 +66,7 @@ tar -xf Python-3.12.5.tgz
 
 Change into the Python source directory, then configure the build environment, compile, and install:
 
-```bash
+```
 cd Python-3.12.5
 ./configure --enable-optimizations
 make -j $(nproc)
@@ -80,7 +79,7 @@ The `--enable-optimizations` flag optimizes the Python binary by running multipl
 
 Verify that Python 3.12.5 was installed successfully:
 
-```bash
+```
 python3.12 --version
 ```
 
